@@ -8,7 +8,7 @@
 
 Uma Pokédex totalmente funcional e interativa, inspirada no design dos jogos clássicos de Pokémon, construída com HTML, CSS e JavaScript puro. Este projeto utiliza a [PokéAPI](https://pokeapi.co/) para buscar e exibir em tempo real os dados detalhados dos Pokémon, incluindo estatísticas, a lista de ataques fiel aos jogos FireRed/LeafGreen, e a cadeia evolutiva completa.
 
-![Screenshot da Pokédex](https://imgur.com/QEoqSxH) ---
+![Screenshot da Pokédex](https://github.com/user-attachments/assets/00f0b8b8-eae7-43ca-83f9-f61e029c5bbb) ---
 
 ## ✨ Funcionalidades
 
