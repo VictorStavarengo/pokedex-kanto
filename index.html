@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pokédex</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Digite o nome ou número..." required>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div class="pokedex">
+        
+        <div class="panel left-panel">
+            <div class="screen main-screen">
+                <div class="pokemon-name-display">
+                    <span id="pokemon-name"></span>
+                    <span id="pokemon-id"></span>
+                </div>
+                <div class="pokemon-image-display">
+                    <img id="pokemon-image" src="" alt="Imagem do Pokémon">
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <button id="prev-button" class="nav-button">◄ Ant</button>
+                <button class="shiny-button">SHINY</button>
+                <button id="next-button" class="nav-button">Próx ►</button>
+            </div>
+
+            <div class="screen description-screen">
+                <p id="pokemon-description"></p>
+            </div>
+        </div>
+
+        <div class="panel right-panel">
+            <div class="screen stats-screen">
+                <ul id="stats-list"></ul>
+            </div>
+            <div class="types-display">
+            </div>
+
+            <div class="evolution-display">
+                <div class="evolution-stage">
+                    <img id="evo-1-img" src="">
+                    <span id="evo-1-name"></span>
+                </div>
+                <div class="evolution-stage">
+                    <img id="evo-2-img" src="">
+                    <span id="evo-2-name"></span>
+                </div>
+                <div class="evolution-stage">
+                    <img id="evo-3-img" src="">
+                    <span id="evo-3-name"></span>
+                </div>
+            </div>
+
+            <div class="screen moves-screen">
+            </div>
+        </div>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
